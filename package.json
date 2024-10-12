@@ -3,7 +3,7 @@
     "displayName": "vsc-translation",
     "description": "A translation extension for Visual Studio Code.",
     "publisher": "cai-qichang",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.94.0"
     },

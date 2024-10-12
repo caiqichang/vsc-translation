@@ -1,7 +1,6 @@
 import vscode from "vscode"
 import * as api from "../api/index"
 import * as common from "../util/common"
-import * as history from "../component/history"
 
 const language = "*"
 
@@ -27,8 +26,6 @@ const provider: vscode.HoverProvider = {
 
             let translate = ""
             await api.translate(item).then(result => {
-                history.writeHistory(result.item)
-
                 translate = (item.results?.map(i => `<br>🔹${i}`) ?? []).join("")
             })
 
