@@ -1,11 +1,11 @@
 {
     "name": "vsc-translation",
-    "displayName": "vsc-Translation",
+    "displayName": "vsc-translation",
     "description": "A translation extension for Visual Studio Code.",
     "publisher": "cai-qichang",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
-        "vscode": "^1.91.0"
+        "vscode": "^1.94.0"
     },
     "categories": [
         "Other"
@@ -141,15 +141,15 @@
         "watch": "tsc --watch --project ./"
     },
     "devDependencies": {
-        "@types/node": "^20.14.11",
-        "@types/vscode": "^1.91.0",
-        "@types/ws": "^8.5.11",
-        "typescript": "^5.5.3"
+        "@types/node": "^22.7.5",
+        "@types/vscode": "^1.94.0",
+        "@types/ws": "^8.5.12",
+        "typescript": "^5.6.3"
     },
     "dependencies": {
         "@vscode/codicons": "^0.0.36",
         "@vscode/webview-ui-toolkit": "^1.4.0",
-        "vue": "^3.4.31",
+        "vue": "^3.5.12",
         "ws": "^8.18.0"
     }
 }

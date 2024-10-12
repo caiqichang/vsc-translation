@@ -1,11 +1,11 @@
-# Translation
+# vsc-translation
 
 This extension provides translation support for Visual Studio Code.
 
 Get from 
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=cai-qichang.vsc-translation) 
 or 
-[OpenVSX](https://open-vsx.org/extension/caiqichang/vsc-translation)
+[OpenVSX](https://open-vsx.org/extension/cai-qichang/vsc-translation)
 
 ## Features
 - Multiple languages translation support
@@ -168,7 +168,7 @@ or
 ### Hovering Translation
 - Select text in editor and hover on it, and the translation will shown in popup.
 
-![hovering-translation-screenshot](https://github.com/caiqichang/vscode-translation/raw/HEAD/resources/screenshot/hover-translate.gif)
+![hovering-translation-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/hovering_translation.gif)
 
 [Back to top](#features)
 
@@ -178,7 +178,7 @@ and the translation for selected text will be shown in notification.
 
 - It is possiable to display the translation result in different ways (notification or statusBar) by `translation.simple-display-mode`. 
 
-![simple-translation-screenshot](https://github.com/caiqichang/vscode-translation/raw/HEAD/resources/screenshot/simple-translate.gif)
+![simple-translation-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/simple_translation.gif)
 
 [Back to top](#features)
 
@@ -186,9 +186,11 @@ and the translation for selected text will be shown in notification.
 - Select text in editor and right click, choose `Complete Translate`,
 and the translation for selected text will be shown in Translation panel.
 
+![complete-translation-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/complete_translation.gif)
+
 - The Translation panel also can be opened by command `Translation`.
 
-![complete-translation-screenshot](https://github.com/caiqichang/vscode-translation/raw/HEAD/resources/screenshot/complete-translate.gif)
+![translation_command-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/translation_command.gif)
 
 [Back to top](#features)
 
