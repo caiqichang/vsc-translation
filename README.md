@@ -2,6 +2,11 @@
 
 This extension provides translation support for Visual Studio Code.
 
+Get from 
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=cai-qichang.vsc-translation) 
+or 
+[OpenVSX](https://open-vsx.org/extension/caiqichang/vsc-translation)
+
 ## Features
 - Multiple languages translation support
 - Google and Microsoft translation API support
