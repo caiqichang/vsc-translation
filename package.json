@@ -1,8 +1,8 @@
 {
     "name": "vsc-translation",
-    "displayName": "Translation",
+    "displayName": "vsc-Translation",
     "description": "A translation extension for Visual Studio Code.",
-    "publisher": "caiqichang",
+    "publisher": "cai-qichang",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.91.0"
