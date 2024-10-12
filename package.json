@@ -1,0 +1,155 @@
+{
+    "name": "vsc-translation",
+    "displayName": "Translation",
+    "description": "A translation extension for Visual Studio Code.",
+    "publisher": "caiqichang",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.91.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "translation"
+    ],
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": true
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/caiqichang/vsc-translation"
+    },
+    "main": "out/extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "contributes": {
+        "configuration": {
+            "title": "Translation",
+            "properties": {
+                "translation.source-language": {
+                    "description": "Default source language for translation.",
+                    "type": "string",
+                    "default": "auto"
+                },
+                "translation.target-language": {
+                    "description": "Default target language for translation.",
+                    "type": "string",
+                    "default": "zh-CN"
+                },
+                "translation.simple-display-mode": {
+                    "description": "Specifies how to display the result of simple translation.",
+                    "type": "string",
+                    "enum": [
+                        "notification",
+                        "statusBar"
+                    ],
+                    "default": "notification"
+                },
+                "translation.max-history": {
+                    "description": "Max size of history.",
+                    "type": "number",
+                    "default": 20
+                },
+                "translation.translation-api-provider": {
+                    "description": "Specifies the translation api provider. (Google or Microsoft)",
+                    "type": "string",
+                    "enum": [
+                        "Google",
+                        "Microsoft"
+                    ],
+                    "default": "Google"
+                },
+                "translation.voice-api-provider": {
+                    "description": "Specifies the voice api provider. (Google or Microsoft)",
+                    "type": "string",
+                    "enum": [
+                        "Google",
+                        "Microsoft"
+                    ],
+                    "default": "Google"
+                },
+                "translation.auto-translate-hovering": {
+                    "description": "Enable/Disable translating the selected text when mouse hovering automatically.",
+                    "type": "boolean",
+                    "default": true
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "simpleTranslate",
+                "title": "Simple Translate"
+            },
+            {
+                "command": "completeTranslate",
+                "title": "Complete Translate"
+            },
+            {
+                "command": "translation",
+                "title": "Translation"
+            }
+        ],
+        "menus": {
+            "commandPalette": [
+                {
+                    "command": "simpleTranslate",
+                    "when": "false"
+                },
+                {
+                    "command": "completeTranslate",
+                    "when": "false"
+                }
+            ],
+            "editor/context": [
+                {
+                    "command": "simpleTranslate",
+                    "when": "editorHasSelection",
+                    "group": "0_translation@0"
+                },
+                {
+                    "command": "completeTranslate",
+                    "when": "editorHasSelection",
+                    "group": "0_translation@1"
+                }
+            ]
+        },
+        "keybindings": [
+            {
+                "command": "simpleTranslate",
+                "when": "editorHasSelection",
+                "key": "shift+alt+y"
+            },
+            {
+                "command": "completeTranslate",
+                "when": "editorHasSelection",
+                "key": "shift+alt+t"
+            }
+        ]
+    },
+    "scripts": {
+        "prepackage": "node script/pre-package.js && npm run compile",
+        "package": "npx --package @vscode/vsce vsce package -o build/",
+        "compile": "tsc --project ./",
+        "watch": "tsc --watch --project ./"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.11",
+        "@types/vscode": "^1.91.0",
+        "@types/ws": "^8.5.11",
+        "typescript": "^5.5.3"
+    },
+    "dependencies": {
+        "@vscode/codicons": "^0.0.36",
+        "@vscode/webview-ui-toolkit": "^1.4.0",
+        "vue": "^3.4.31",
+        "ws": "^8.18.0"
+    }
+}
