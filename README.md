@@ -10,9 +10,11 @@ or
 ## Features
 - Multiple languages translation support
 - Google and Microsoft translation API support
+- Definitions and examples support (depend on translation API)
 - Pronunciation support
 - Bookmark support
-- User data synchronizing support
+- User data synchronization support
+- User data export support
 - [Settings](#settings)
 - [Hovering Translation](#hovering-translation)
 - [Simple Translation](#simple-translation)
