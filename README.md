@@ -198,6 +198,6 @@ and the translation for selected text will be shown in Translation panel.
 
 ## Donation
 
-Support me by AFDIAN: https://afdian.net/a/caiqichang
+Support me by AFDIAN: https://afdian.com/a/caiqichang
 
 [Back to top](#features)

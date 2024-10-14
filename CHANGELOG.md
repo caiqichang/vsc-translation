@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.3
+- Bugs fix.
+
 ## 1.0.2
 - Disable history of hovering translation.
 
