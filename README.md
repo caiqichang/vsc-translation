@@ -170,7 +170,7 @@ or
 ### Hovering Translation
 - Select text in editor and hover on it, and the translation will shown in popup.
 
-![hovering-translation-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/hovering_translation.gif)
+![hovering-translation-screenshot](resources/screenshot/hovering_translation.gif)
 
 [Back to top](#features)
 
@@ -180,7 +180,7 @@ and the translation for selected text will be shown in notification.
 
 - It is possiable to display the translation result in different ways (notification or statusBar) by `translation.simple-display-mode`. 
 
-![simple-translation-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/simple_translation.gif)
+![simple-translation-screenshot](resources/screenshot/simple_translation.gif)
 
 [Back to top](#features)
 
@@ -188,11 +188,11 @@ and the translation for selected text will be shown in notification.
 - Select text in editor and right click, choose `Complete Translate`,
 and the translation for selected text will be shown in Translation panel.
 
-![complete-translation-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/complete_translation.gif)
+![complete-translation-screenshot](resources/screenshot/complete_translation.gif)
 
 - The Translation panel also can be opened by command `Translation`.
 
-![translation_command-screenshot](https://github.com/caiqichang/vsc-translation/raw/HEAD/resources/screenshot/translation_command.gif)
+![translation_command-screenshot](resources/screenshot/translation_command.gif)
 
 [Back to top](#features)
 
