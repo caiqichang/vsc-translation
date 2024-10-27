@@ -19,6 +19,7 @@ class TranslationPanel {
     private initPanel = () => {
         this.panel = common.createWebviewPanel("translationPanel", "Translation")
         this.panel.onDidDispose(() => this.panel = null)
+        this.panel.iconPath = common.createUri("/resources/logo.png")
         this.panel.webview.html = fileUtil.readExtensionFile("static/translation-panel.html").toString()
             .replaceAll("${extensionPath}", common.createWebviewUri(this.panel, "").toString())
             .replaceAll("${version}", Math.random().toString())

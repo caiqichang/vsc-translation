@@ -26,6 +26,7 @@
         "type": "git",
         "url": "https://github.com/caiqichang/vsc-translation"
     },
+    "icon": "resources/logo.png",
     "markdown": "github",
     "sponsor": {
         "url": "https://afdian.com/a/caiqichang"

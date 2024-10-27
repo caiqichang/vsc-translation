@@ -1,4 +1,4 @@
-# vsc-translation
+# <img src="resources/logo.png" alt="logo" width="32"/> vsc-translation
 
 This extension provides translation support for Visual Studio Code.
 
