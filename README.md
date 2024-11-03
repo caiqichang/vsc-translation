@@ -197,7 +197,6 @@ and the translation for selected text will be shown in Translation panel.
 [Back to top](#features)
 
 ## Donation
-
 Support me by AFDIAN: https://afdian.com/a/caiqichang
 
 [Back to top](#features)
