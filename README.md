@@ -195,8 +195,3 @@ and the translation for selected text will be shown in Translation panel.
 ![translation_command-screenshot](resources/screenshot/translation_command.gif)
 
 [Back to top](#features)
-
-## Donation
-Support me by AFDIAN: https://afdian.com/a/caiqichang
-
-[Back to top](#features)
