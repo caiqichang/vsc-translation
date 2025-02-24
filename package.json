@@ -29,7 +29,7 @@
     "icon": "resources/logo.png",
     "markdown": "github",
     "sponsor": {
-        "url": "https://afdian.com/a/caiqichang"
+        "url": "https://github.com/sponsors/caiqichang"
     },
     "main": "out/extension.js",
     "activationEvents": [
