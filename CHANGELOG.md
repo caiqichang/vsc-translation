@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.5
+- Bug fix.
+
 ## 1.0.4
 - Optimision.
 
