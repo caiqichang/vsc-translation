@@ -3,9 +3,7 @@
 This extension provides translation support for Visual Studio Code.
 
 Get from 
-[Marketplace](https://marketplace.visualstudio.com/items?itemName=cai-qichang.vsc-translation) 
-or 
-[OpenVSX](https://open-vsx.org/extension/cai-qichang/vsc-translation)
+[Marketplace](https://marketplace.visualstudio.com/items?itemName=cai-qichang.vsc-translation)
 
 ## Features
 - Multiple languages translation support
@@ -165,14 +163,10 @@ or
 </table>
 </details>
 
-[Back to top](#features)
-
 ### Hovering Translation
 - Select text in editor and hover on it, and the translation will shown in popup.
 
 ![hovering-translation-screenshot](resources/screenshot/hovering_translation.gif)
-
-[Back to top](#features)
 
 ### Simple Translation
 - Select text in editor and right click, choose `Simple Translate` (or use shortcut `Shift+Alt+T`),  
@@ -181,8 +175,6 @@ and the translation for selected text will be shown in notification.
 - It is possiable to display the translation result in different ways (notification or statusBar) by `translation.simple-display-mode`. 
 
 ![simple-translation-screenshot](resources/screenshot/simple_translation.gif)
-
-[Back to top](#features)
 
 ### Complete Translation
 - Select text in editor and right click, choose `Complete Translate`,
@@ -193,5 +185,3 @@ and the translation for selected text will be shown in Translation panel.
 - The Translation panel also can be opened by command `Translation`.
 
 ![translation_command-screenshot](resources/screenshot/translation_command.gif)
-
-[Back to top](#features)
