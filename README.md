@@ -1,4 +1,4 @@
-# <img src="resources/logo.png" alt="logo" width="64"/> vsc-translation
+# vsc-translation
 
 This extension provides translation support for Visual Studio Code.
 
@@ -166,22 +166,14 @@ Get from
 ### Hovering Translation
 - Select text in editor and hover on it, and the translation will shown in popup.
 
-![hovering-translation-screenshot](resources/screenshot/hovering_translation.gif)
-
 ### Simple Translation
 - Select text in editor and right click, choose `Simple Translate` (or use shortcut `Shift+Alt+T`),  
 and the translation for selected text will be shown in notification.
 
 - It is possiable to display the translation result in different ways (notification or statusBar) by `translation.simple-display-mode`. 
 
-![simple-translation-screenshot](resources/screenshot/simple_translation.gif)
-
 ### Complete Translation
 - Select text in editor and right click, choose `Complete Translate`,
 and the translation for selected text will be shown in Translation panel.
 
-![complete-translation-screenshot](resources/screenshot/complete_translation.gif)
-
 - The Translation panel also can be opened by command `Translation`.
-
-![translation_command-screenshot](resources/screenshot/translation_command.gif)

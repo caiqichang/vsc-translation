@@ -3,9 +3,9 @@
     "displayName": "vsc-translation",
     "description": "A translation extension for Visual Studio Code.",
     "publisher": "cai-qichang",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "engines": {
-        "vscode": "^1.97.0"
+        "vscode": "^1.101.0"
     },
     "categories": [
         "Other"
@@ -26,7 +26,6 @@
         "type": "git",
         "url": "https://github.com/caiqichang/vsc-translation"
     },
-    "icon": "resources/logo.png",
     "markdown": "github",
     "sponsor": {
         "url": "https://github.com/sponsors/caiqichang"
@@ -146,15 +145,15 @@
         "watch": "tsc --watch --project ./"
     },
     "devDependencies": {
-        "@types/node": "^22.13.8",
-        "@types/vscode": "^1.97.0",
-        "@types/ws": "^8.5.14",
-        "typescript": "^5.8.2"
+        "@types/node": "^24.0.4",
+        "@types/vscode": "^1.101.0",
+        "@types/ws": "^8.18.1",
+        "typescript": "^5.8.3"
     },
     "dependencies": {
         "@vscode/codicons": "^0.0.36",
         "@vscode/webview-ui-toolkit": "^1.4.0",
-        "vue": "^3.5.13",
-        "ws": "^8.18.1"
+        "vue": "^3.5.17",
+        "ws": "^8.18.2"
     }
 }
