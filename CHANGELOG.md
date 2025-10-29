@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.0.8
+- Update dependencies.
+
 ## 1.0.7
 - Update dependencies.
 
